@@ -1,11 +1,11 @@
 String voice;
 int led1 = 8;
 int led2 = 11;
-int led3 = 13; //Connect 1ST TRANSISTOR COLLECTOR To Pin #13
+int led3 = 13; 
 
 int motorPin1 = 3; // pin 2 on L293D IC
 int motorPin2 = 4; // pin 7 on L293D IC
-int tv = 6; //Connect 1ST TRANSISTOR COLLECTOR To Pin #12
+int tv = 6; 
  
 void allon(){
      digitalWrite(led1, HIGH);
